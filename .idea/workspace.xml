@@ -96,8 +96,8 @@
       <file leaf-file-name="Servlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/servlet/Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="475">
+              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -129,6 +129,9 @@
       <find>ArrayList</find>
       <find>out</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -180,6 +183,7 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -514,12 +518,12 @@
       <updated>1531221733496</updated>
       <workItem from="1531221742299" duration="15685000" />
       <workItem from="1531271705868" duration="377000" />
-      <workItem from="1531272117089" duration="2225000" />
+      <workItem from="1531272117089" duration="2226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18287000" />
+    <option name="totallyTimeSpent" value="18288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,7 +557,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.33618233" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Thumbnails" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985755" weight="0.25767368" />
@@ -784,8 +788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="475">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
     </entry>
