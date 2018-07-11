@@ -121,8 +121,8 @@ public class ItemsDAO {
             String[] arr = list.split(",");
             System.out.println("arr.length=" + arr.length);
             //如果商品记录大于等于5条
-            int i = arr.length - 1;
-            while (arr.length >= 0 && itemlist.size() <= 4) {
+            int i = arr.length-1 ;
+            while ((i >= 0) && itemlist.size() <= 4) {
                 Items items = getItemsById(Integer.parseInt(arr[i]));
                 //System.out.println(items.hashCode());
                 int flag = 0;
