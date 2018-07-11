@@ -101,11 +101,11 @@
                 }
 
                 list += request.getParameter("id") + ",";
-                //如果浏览记录超过1000条，清零.
+                //如果浏览记录超过1000条，删掉1000条之前的.
                 String[] arr = list.split(",");
                 if (arr != null && arr.length > 0) {
                     if (arr.length >= 1000) {
-                        list = "";
+                        list = list.substring(list.length()-1000,list.length());
                     }
                 }
                 Cookie cookie = new Cookie("ListViewCookie", URLEncoder.encode(list, "UTF-8"));
