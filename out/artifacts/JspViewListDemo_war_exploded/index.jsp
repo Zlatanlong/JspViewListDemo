@@ -12,6 +12,7 @@
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
 %>
+<link rel="stylesheet" type="text/css" href="css/index_css.css">
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -26,30 +27,13 @@
     <meta http-equiv="description" content="This is my page">
     <!--
     <link rel="stylesheet" type="text/css" href="styles.css">
-    -->
-    <style type="text/css">
-        div {
-            float: left;
-            margin: 10px;
-        }
+      -->
 
-        div dd {
-            margin: 0px;
-            font-size: 10pt;
-        }
 
-        div dd.dd_name {
-            color: blue;
-        }
-
-        div dd.dd_city {
-            color: #000;
-        }
-    </style>
 </head>
 
 <body>
-<h1><a href="index.jsp">商品展示</a></h1>
+<h1><a href="index.jsp">商品lllly展示</a></h1>
 <hr>
 
 <center>
@@ -65,7 +49,19 @@
                         for (int i = 0; i < list.size(); i++) {
                             Items item = list.get(i);
                 %>
-                <div>
+                <div class="listdiv">
+                    <div class="port-2 effect-1">
+                        <div class="image-box">
+                            <img src="images/<%=item.getPicture()%>" ;alt="Image-1" class="lysrc">
+                        </div>
+                        <div class="text-desc"
+                             style="background:url(images/<%=item.getPicture()%>);background-size: 100% 100%;;width:200px ;height:180px">
+                            <center><a href="details.jsp?id=<%=item.getId()%>" class="cdbtn"><%=item.getName() %>
+                            </a></center>
+                            <center><p style="color:#ff5565;font-size:20px;"><%=item.getName()%></p></center>
+                        </div>
+                    </div>
+                    <!--
                     <dl>
                         <dt>
                             <a href="details.jsp?id=<%=item.getId()%>"><img src="images/<%=item.getPicture()%>"
@@ -76,14 +72,15 @@
                         <dd class="dd_city">产地:<%=item.getCity() %>&nbsp;&nbsp;价格:￥ <%=item.getPrice() %>
                         </dd>
                     </dl>
+                    -->
                 </div>
                 <!-- 商品循环结束 -->
 
                 <%
                         }
-                    }else {
+                    } else {
                         out.print("商品正在上架中......");
-                        }
+                    }
                 %>
             </td>
         </tr>
