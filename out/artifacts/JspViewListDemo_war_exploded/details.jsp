@@ -97,7 +97,6 @@
                 <%
                     ArrayList<Items> itemlist = itemDao.getViewList(list);
                     if (itemlist != null && itemlist.size() > 0) {
-                        System.out.println("itemlist.size=" + itemlist.size());
                         for (Items i : itemlist) {
                 %>
                 <div>

@@ -114,12 +114,12 @@ public class ItemsDAO {
 
     //获取最近浏览的前五条商品信息
     public ArrayList<Items> getViewList(String list) {
-        System.out.println("list:" + list);
+        //System.out.println("list:" + list);
         ArrayList<Items> itemlist = new ArrayList<Items>();
         int iCount = 5; //每次返回前五条记录
         if (list != null && list.length() > 0) {
             String[] arr = list.split(",");
-            System.out.println("arr.length=" + arr.length);
+            //System.out.println("arr.length=" + arr.length);
             //如果商品记录大于等于5条
             int i = arr.length-1 ;
             while ((i >= 0) && itemlist.size() <= 4) {
