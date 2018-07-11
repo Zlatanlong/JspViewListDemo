@@ -27,38 +27,15 @@
     <meta http-equiv="expires" content="0">
     <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
     <meta http-equiv="description" content="This is my page">
-    <!--
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    -->
-    <style type="text/css">
-        div {
-            float: left;
-            margin-left: 30px;
-            margin-right: 30px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
 
-        div dd {
-            margin: 0px;
-            font-size: 10pt;
-        }
-
-        div dd.dd_name {
-            color: blue;
-        }
-
-        div dd.dd_city {
-            color: #000;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/details_css.css">
 </head>
 
 <body>
 <h1>商品详情</h1>
 <hr>
 <center>
-    <table width="750" height="60" cellpadding="0" cellspacing="0" border="0">
+    <table width="750" height="60" cellpadding="0" cellspacing="0" border="0" id="tb1">
         <tr>
             <!-- 商品详情 -->
             <%
