@@ -12,7 +12,7 @@
 </head>
 <body>
 <center>
-    <form action="<%=request.getContextPath()%>/html" ethod="POST">
+    <form action="<%=request.getContextPath()%>/servet/Servlet" ethod="POST">
         <input type="submit"value="提交">
     </form>
 </center>
